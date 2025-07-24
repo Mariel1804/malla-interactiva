@@ -1,1 +1,59 @@
-
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <little>Malla Interactiva Enfermeria</little>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Malla Interactiva - enfermeria</h1>
+    <div id="malla">
+      <!-- Primer semestre -->
+      <div class="ramo" id="ENFE111" data-desbloquea="ENFE121">Introduccion a la enfermeria ENFE111</div>
+      <div class="ramo" id="ENFE112" data-desbloquea="ENFE123">Aantomia ENFE112</div>
+      <div class="ramo" id="ENFE113" data-desbloquea="ENFE123">Biologia ENFE113</div>
+      <div class="ramo" id="ENFE114" data-desbloquea="ENFE212">Quimica y bioquimica ENFE114</div>
+      <div class="ramo" id="ENFE115" data-desbloquea="ENFE243">Herramientas para la investigacion ENFE115</div>
+      <div class="ramo" id="ENFE116" data-desbloquea="ENFE216">Formacion general y profesional I ENF116</div>
+      <!-- Segundo semestre -->
+      <div class="ramo bloqueado" id="ENFE121" data-desbloquea="ENFE231">Enfermeria en salud familiar y comunitaria I ENFE121</div>
+      <div class="ramo bloqueado" id="ENFE122" data-desbloquea="ENFE232">Enfermeria en salud mental I ENFE</div>
+      <div class="ramo bloqueado" id="ENFE123" data-desbloquea="ENFE212">Histologia ENFE123</div>
+      <div class="ramo bloqueado" id="ENFE124" data-desbloquea="ENFE243">Fisiologia ENFE124</div>
+      <div class="ramo bloqueado" id="ENFE125" data-desbloquea="ENFE213">Microbiologia ENFE124</div>
+      <!-- Tercer semestre -->
+      <div class="ramo bloqueado" id="ENFE231" data-desbloquea="ENFE311">Enfermeria en personas adultas ENF231</div>
+      <div class="ramo bloqueado" id="ENFE232" data-desbloquea="ENFE321">Enfermeria en el envejecimiento ENFE232</div>
+      <div class="ramo bloqueado" id="ENFE212" data-desbloquea="ENFE242">Fisiopatologia ENFE212</div>
+      <div class="ramo bloqueado" id="ENFE213" data-desbloquea="ENFE243">Farmacologia ENFFE213</div>
+      <!-- Cuarto semestre -->
+      <div class="ramo bloqueado" id="ENFE241" data-desbloquea="ENFE321">Enfermeria en niños y adolescentes I ENFE241</div>
+      <div class="ramo bloqueado" id="ENFE242" data-desbloquea="ENFE323">Fundamentos socioculturales ENFE242</div>
+      <div class="ramo bloqueado" id="ENFE243" data-desbloquea="ENFE315">Introduccion a la investigacion ENFE243</div>
+      <div class="ramo bloqueado" id="ENFE216" data-desbloquea="ENFE412">Formacion general y profesional II ENFE216</div>
+      <!-- Quinto semestre -->
+      <div class="ramo bloqueado" id="ENFE311" data-desbloquea="ENFE421">Enfermeria en personas adultas y mayores ENFE311</div>  
+      <div class="ramo bloqueado" id="ENFE321" data-desbloquea="ENFE341">Etica y legislacion ENFE321</div>
+      <div class="ramo bloqueado" id="ENFE323" data-desbloquea="ENFE315">Metodologia de investigacion I ENFE323</div>
+      <div class="ramo bloqueado" id="ENFE315" data-desbloquea="ENFE323">Tipe I</div>
+      <!-- Sexto semestre -->
+      <div class="ramo bloqueado" id="ENFE341" data-desbloquea="ENFE411">Enfermeria niños y adolescentes II ENFE341</div>
+      <div class="ramo bloqueado" id="ENFE342" data-desbloquea="ENFE412">Enfermeria en salud mental II ENFE342</div>
+      <div class="ramo bloqueado" id="ENFE323" data-desbloquea="ENFE413">Tipe II</div>
+      <!-- Septimo semestre -->
+      <div class="ramo bloqueado" id="ENFE411" data-desbloquea="ENFE511">Enfermeria en salud familiar comunitaria II ENFE411</div>
+      <div class="ramo bloqueado" id="ENFE412" data-desbloquea="ENFE511">Gestion de calidad e innovacion I ENFE412</div>
+      <div class="ramo bloqueado" id="ENFE413" data-desbloquea="ENFE511">Trabajo final de grado I ENFE413</div>
+      <div class="ramo bloqueado" id="ENFE412" data-desbloquea="ENFE511">Formacion general y profesional III ENFE412</div>
+      <div class="ramo bloqueado" id="ENFE421" data-desbloquea="ENFE511">Enfermeria en urgencias y desastres ENFE421</div>
+      <!-- Octavo semestre -->
+      <div class="ramo bloqueado" id="ENFE422" data-desbloquea="ENFE611">Gestion de calidad e innovacion II ENFE422</div>
+      <div class="ramo bloqueado" id="ENFE423" data-desbloquea="ENFE611">Trabajo final de grado II ENFE511</div>
+      <!-- Noveno semestre -->
+      <div class="ramo bloqueado" id="ENFE511" data-desbloquea="ENFE611">Practica profesional I ENFE511</div>
+      <!-- Decimo semestre -->
+      <div class="ramo bloqueado" id="ENFE611">Practica profesional II ENFE611</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
